@@ -1,21 +1,18 @@
-void main() {
-  List<int> grades = [85, 92, 78, 65, 88, 72];
-  
-  double sum = 0;
-  for (int grade in grades) {
-    sum += grade;
-  }
-  
-  double average = sum / grades.length;
-  int roundedAverage = average.round();
-  
-  print("Student's average grade: $average");
-  print("Rounded average: $roundedAverage");
-  
-  if (roundedAverage >= 70) {
-    print("Passed");
-  } else {
-    print("Failed");
-  }
-}
+import 'package:dart_basic/live_test/live_test2.dart';
+import 'package:dart_basic/practices/practice.dart';
 
+void main() {
+  Base().baseMathod();
+  // List<double> itemPrices = [12.99, 8.75, 21.50, 5.00];
+  // double taxRate = 0.08;
+
+  // double subtotal = 0;
+  // for (double price in itemPrices) {
+  //   subtotal += price;
+  // }
+
+  // double taxAmount = subtotal * taxRate;
+  // double totalCost = subtotal + taxAmount;
+
+  // print("Total Cost: \$${totalCost.toStringAsFixed(2)}");
+}
